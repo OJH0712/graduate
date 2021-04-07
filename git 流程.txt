@@ -1,0 +1,44 @@
+
+1.将项目的所有文件添加到仓库中
+git add .
+
+2. 将add的文件commit到仓库
+git commit -m "注释语句"
+
+3.上传
+git push
+
+4.创建分支，切换到分支
+git switch -c 分支名
+
+4.切换到分支
+git switch 分支名
+
+5.查看当前分支
+git branch
+
+6.合并分支结果（先切换到主分支）
+git merge 分支名
+
+7.删除分支
+git branch -d 分支名
+
+4.git 强制拉去覆盖本地
+git fetch --all  
+git reset --hard origin/master 
+git pull
+
+5.git 获取修改日志
+git log
+
+6.回退上个版本
+git reset --hard HEAD^
+
+7.回到某个版本 
+git reset --hard （版本号前几位）
+
+8.想直接丢弃工作区的修改时
+git checkout -- file
+
+9.把暂存区的修改撤销掉
+git reset HEAD file
